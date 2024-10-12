@@ -48,9 +48,14 @@ Below is a sample output of the RSI analysis for a stock:
 ## Features
 
 - Fetch stock data using yfinance
-- Calculate RSI for specified stocks
-- Plot RSI values over time
-- Save RSI data to CSV files
+- Calculate RSI, smoothed RSI, and double-smoothed RSI for specified stocks
+- Generate line plots of stock price and RSI values over time
+- Create PDF reports with detailed analysis and visualizations for each stock
+- Sort and analyze multiple stocks in a single run
+- Detect recent crossovers between smoothed and double-smoothed RSI
+- Send email alerts with attached PDF reports when significant changes are detected
+- Customizable RSI and smoothing windows
+- Configurable email settings for alerts
 
 ## Installation
 
@@ -75,5 +80,6 @@ symbols = ['AAPL', 'GOOGL', 'MSFT'] # Add or remove stock symbols as needed
 Then run the script:
 
 python stock_checker_rsi.py
+
 
 
