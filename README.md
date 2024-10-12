@@ -81,5 +81,14 @@ Then run the script:
 
 python stock_checker_rsi.py
 
+## Future Improvements
 
+1. Add additional indicators and calculations for determining overbought / oversold status
 
+## License
+
+This project is licensed under the GNU General Public License v3.0.
+
+The GNU GPL is a copyleft license that requires anyone who distributes this code or a derivative work to make the source available under the same terms. It is designed to ensure that all modified and extended versions of the project are free software.
+
+For more details about this license, please visit: https://www.gnu.org/licenses/gpl-3.0.en.html
